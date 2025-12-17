@@ -28,7 +28,7 @@ const sampleGifts = [
     category: 'Living Room',
     condition: 'Good',
     age: '5 years',
-    imageUrl: 'https://example.com/sofa.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400',
     userName: 'John Doe'
   },
   {
@@ -37,7 +37,7 @@ const sampleGifts = [
     category: 'Living Room',
     condition: 'Like New',
     age: '2 years',
-    imageUrl: 'https://example.com/table.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?w=400',
     userName: 'Jane Smith'
   },
   {
@@ -46,7 +46,7 @@ const sampleGifts = [
     category: 'Bedroom',
     condition: 'Good',
     age: '3 years',
-    imageUrl: 'https://example.com/bed.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400',
     userName: 'Mike Johnson'
   },
   {
@@ -55,7 +55,7 @@ const sampleGifts = [
     category: 'Kitchen',
     condition: 'Fair',
     age: '7 years',
-    imageUrl: 'https://example.com/dining.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?w=400',
     userName: 'Sarah Williams'
   },
   {
@@ -64,7 +64,7 @@ const sampleGifts = [
     category: 'Office',
     condition: 'Good',
     age: '4 years',
-    imageUrl: 'https://example.com/desk.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400',
     userName: 'John Doe'
   },
   {
@@ -73,7 +73,7 @@ const sampleGifts = [
     category: 'Living Room',
     condition: 'Good',
     age: '6 years',
-    imageUrl: 'https://example.com/bookshelf.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1594620302200-9a762244a156?w=400',
     userName: 'Jane Smith'
   },
   {
@@ -82,7 +82,7 @@ const sampleGifts = [
     category: 'Outdoor',
     condition: 'Like New',
     age: '1 year',
-    imageUrl: 'https://example.com/chairs.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1601113647775-0ef4e04e6f57?w=400',
     userName: 'Mike Johnson'
   },
   {
@@ -91,7 +91,7 @@ const sampleGifts = [
     category: 'Bathroom',
     condition: 'Good',
     age: '5 years',
-    imageUrl: 'https://example.com/cabinet.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?w=400',
     userName: 'Sarah Williams'
   },
   {
@@ -100,7 +100,7 @@ const sampleGifts = [
     category: 'Bedroom',
     condition: 'Good',
     age: '4 years',
-    imageUrl: 'https://example.com/nightstand.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=400',
     userName: 'John Doe'
   },
   {
@@ -109,7 +109,7 @@ const sampleGifts = [
     category: 'Kitchen',
     condition: 'Like New',
     age: '2 years',
-    imageUrl: 'https://example.com/island.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=400',
     userName: 'Jane Smith'
   },
   {
@@ -118,7 +118,7 @@ const sampleGifts = [
     category: 'Outdoor',
     condition: 'Fair',
     age: '8 years',
-    imageUrl: 'https://example.com/patio.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=400',
     userName: 'Mike Johnson'
   },
   {
@@ -127,7 +127,7 @@ const sampleGifts = [
     category: 'Office',
     condition: 'Good',
     age: '3 years',
-    imageUrl: 'https://example.com/chair.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=400',
     userName: 'Sarah Williams'
   },
   {
@@ -136,7 +136,7 @@ const sampleGifts = [
     category: 'Bedroom',
     condition: 'Fair',
     age: '10 years',
-    imageUrl: 'https://example.com/wardrobe.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=400',
     userName: 'John Doe'
   },
   {
@@ -145,7 +145,7 @@ const sampleGifts = [
     category: 'Living Room',
     condition: 'Like New',
     age: '1 year',
-    imageUrl: 'https://example.com/tvstand.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=400',
     userName: 'Jane Smith'
   },
   {
@@ -154,7 +154,7 @@ const sampleGifts = [
     category: 'Kitchen',
     condition: 'Good',
     age: '3 years',
-    imageUrl: 'https://example.com/cart.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=400',
     userName: 'Mike Johnson'
   },
   {
@@ -163,7 +163,7 @@ const sampleGifts = [
     category: 'Bedroom',
     condition: 'Fair',
     age: '9 years',
-    imageUrl: 'https://example.com/dresser.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1558603668-6570496b66f8?w=400',
     userName: 'Sarah Williams'
   }
 ];
