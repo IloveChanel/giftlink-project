@@ -7,9 +7,6 @@ const connectDB = require('./models/db');
 const app = express();
 const port = process.env.PORT || 3060;
 
-// Connect to MongoDB
-connectDB();
-
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -34,10 +31,15 @@ app.get('/health', (req, res) => {
   res.json({ status: 'OK', message: 'Server is healthy' });
 });
 
-// Start server
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-  console.log(`MongoDB URI: ${process.env.MONGO_URI || 'Not configured'}`);
-});
+// Start server only after DB connects
+const startServer = async () => {
+  await connectDB();
+  app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+    console.log(`MongoDB URI: ${process.env.MONGO_URI || 'Not configured'}`);
+  });
+};
+
+startServer();
 
 module.exports = app;
