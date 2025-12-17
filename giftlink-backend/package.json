@@ -13,7 +13,8 @@
     "dotenv": "^16.0.3",
     "cors": "^2.8.5",
     "mongoose": "^7.0.3",
-    "bcryptjs": "^2.4.3"
+    "bcryptjs": "^2.4.3",
+    "natural": "^6.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"

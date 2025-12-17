@@ -1,5 +1,8 @@
 /*jshint esversion: 8 */
 
+// Import natural package for sentiment analysis
+const natural = require('natural');
+
 // Simple sentiment analysis function
 const analyzeSentiment = (text) => {
   if (!text) {
