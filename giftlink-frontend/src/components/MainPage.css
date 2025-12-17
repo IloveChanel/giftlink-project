@@ -1,0 +1,151 @@
+.main-page {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.main-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-header h1 {
+  margin: 0;
+}
+
+.user-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.user-info span {
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.btn-search {
+  background-color: #fff;
+  color: #4CAF50;
+}
+
+.btn-search:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-logout {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-logout:hover {
+  background-color: #d32f2f;
+}
+
+.gifts-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.gifts-container h2 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #666;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.no-gifts {
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  padding: 40px;
+}
+
+.gifts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.gift-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gift-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gift-image {
+  height: 200px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gift-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.no-image {
+  color: #999;
+  font-size: 14px;
+}
+
+.gift-info {
+  padding: 15px;
+}
+
+.gift-info h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.gift-category {
+  color: #4CAF50;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.gift-condition,
+.gift-age,
+.gift-user {
+  color: #666;
+  font-size: 14px;
+  margin: 5px 0;
+}
